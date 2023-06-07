@@ -90,7 +90,7 @@ If you have enrolled a device with a specific name that becomes the device_id to
 
 ### sensors: manual configuration
 
-Normally not needed, but in case [MQTT auto discovery](https://www.home-assistant.io/docs/mqtt/discovery/) is disabled, it is possible to manually add a `binary_sensor` for the ESP32 sensor.
+Normally not needed, but in case [MQTT auto discovery](https://www.home-assistant.io/docs/mqtt/discovery) is disabled, it is possible to manually add a `binary_sensor` for the ESP32 sensor.
 Note: this does not add the entities that are normally added automatically: set max distance, active scan, query.
 
 ```yaml
