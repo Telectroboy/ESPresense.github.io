@@ -41,7 +41,7 @@ This groups + shows the `rooms` and `devices`.
 
 ### MQTT auto discovery
 
-ESPresense supports [MQTT auto discovery](https://www.home-assistant.io/docs/mqtt/discovery/), which is enabled by default in Home Assistant.
+ESPresense supports [MQTT auto discovery](https://www.home-assistant.io/integrations/mqtt/#mqtt-discovery/), which is enabled by default in Home Assistant.
 This means a device + entities for each ESP32 sensor will automatically be created.
 
 They appear as device + entities in Mosquitto broker card on the **integrations** page.
